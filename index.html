@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let money = parseInt(prompt("Nhap vao so tien ban muon gui"))
+      let year = parseInt(prompt("Nhap vao so nam ban muon kiem tra"))
+      let interest = parseFloat(prompt("Lai suat"))
+
+      let total = money + money * year * interest
+      document.write(`Tien cua ban sau ${year} nam tich luy la ${total}`)
+    </script>
+  </body>
+</html>
